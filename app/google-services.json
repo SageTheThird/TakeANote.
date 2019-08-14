@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "664787265578",
+    "firebase_url": "https://smalltalk-7a2e2.firebaseio.com",
+    "project_id": "smalltalk-7a2e2",
+    "storage_bucket": "smalltalk-7a2e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664787265578:android:731f0182af158f35",
+        "android_client_info": {
+          "package_name": "com.homie.roompersistence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664787265578-cft9ll8eubilo3df151rpr8bv74mn11u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homie.roompersistence",
+            "certificate_hash": "cfba0d9fcb0877dd1c94f8523e77dec259108600"
+          }
+        },
+        {
+          "client_id": "664787265578-qls00bq6dfb6beve10rkrtakuicepco6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeZDEv2mTtsK_CYLtLW__BTm4gRHGYNpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664787265578-qls00bq6dfb6beve10rkrtakuicepco6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664787265578:android:6abaf37062db97e0",
+        "android_client_info": {
+          "package_name": "com.homie.smalltalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664787265578-firehk7npd50anclnh89m7b39hmknl6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homie.smalltalk",
+            "certificate_hash": "cfba0d9fcb0877dd1c94f8523e77dec259108600"
+          }
+        },
+        {
+          "client_id": "664787265578-qls00bq6dfb6beve10rkrtakuicepco6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeZDEv2mTtsK_CYLtLW__BTm4gRHGYNpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664787265578-qls00bq6dfb6beve10rkrtakuicepco6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664787265578:android:b6c233b437190992",
+        "android_client_info": {
+          "package_name": "com.homie.smartreply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664787265578-minv0klm2g9vnjle2irvm5aephhs4dlr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homie.smartreply",
+            "certificate_hash": "cfba0d9fcb0877dd1c94f8523e77dec259108600"
+          }
+        },
+        {
+          "client_id": "664787265578-qls00bq6dfb6beve10rkrtakuicepco6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeZDEv2mTtsK_CYLtLW__BTm4gRHGYNpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664787265578-qls00bq6dfb6beve10rkrtakuicepco6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

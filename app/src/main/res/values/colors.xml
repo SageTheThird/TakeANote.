@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B413C</color>
+    <color name="colorPrimaryDark">#3B413C</color>
+    <color name="colorAccent">#3B413C</color>
+    <color name="alertDialogColorBackground">#FFF</color>
+    <color name="alertDialogWindowBackground">#000</color>
+    <color name="white">#FFF</color>
+    <color name="block">#000</color>
+    <color name="app_background">#1F1818</color>
+    <color name="greyLight">#535252</color>
+    <color name="greyDark">#B3ADAD</color>
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPage_relative">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/newNote_viewPager"
+            android:layout_marginStart="-10dp"
+            android:layout_marginEnd="-10dp"
+            />
+
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_alignBottom="@id/newNote_viewPager"
+            app:piv_animationType="worm"
+            app:piv_dynamicCount="true"
+            app:piv_interactiveAnimation="true"
+            app:piv_selectedColor="@color/greyDark"
+            app:piv_unselectedColor="@color/greyLight"
+            app:piv_viewPager="@id/newNote_viewPager"
+            android:visibility="invisible"
+
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_back"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:visibility="gone"
+        android:id="@+id/newNote_backBtn"/>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/extra_buttons"
+        app:cardCornerRadius="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="70dp"
+        app:cardBackgroundColor="@color/white"
+
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:id="@+id/new_note_btn"
+                android:src="@drawable/ic_new_note"/>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="40dp"
+                android:layout_toRightOf="@id/new_note_btn"
+                android:id="@+id/clear_note_btn"
+                android:src="@drawable/ic_clear"/>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/clear_note_btn"
+                android:layout_marginStart="40dp"
+                android:id="@+id/change_color_note_btn"
+                android:src="@drawable/ic_change"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/extra_buttons"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/viewPage_relative"
+        android:padding="20dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="6dp"
+            app:cardBackgroundColor="@color/white"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+
+                    android:gravity="start"
+                    android:background="@null"
+                    android:id="@+id/new_note_Edittext"
+                    android:padding="24dp"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/molengo"
+                    android:layout_above="@id/date_tv"/>
+
+                <TextView
+                    android:id="@+id/date_tv"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="@font/molengo"
+                    android:gravity="end"
+                    android:textColor="@color/block"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/time_tv"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/molengo"
+                    android:textColor="@color/block"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        custom:progress_unreached_color="#CCCCCC"
+        custom:progress_reached_color="#FFAB00"
+        custom:progress_unreached_bar_height="0.75dp"
+        custom:progress_reached_bar_height="1.5dp"
+        custom:progress_text_size="11sp"
+        custom:progress_text_color="#000"
+        custom:progress_text_offset="1dp"
+        custom:progress_text_visibility="visible"
+        custom:progress_max="100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:id="@+id/numbers_progressBar"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

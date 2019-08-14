@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/background_theme"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar_layout">
+
+        <include
+            layout="@layout/snippet_settings_toolbar"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool_bar_layout"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="27dp"
+            android:text="Theme"
+            android:textSize="10.5sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/change_theme_tv"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:gravity="center"
+            android:layout_marginStart="27dp"
+            android:textSize="10.5sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/change_theme_tv"
+            style="@style/Divider.Horizontal"
+            android:layout_marginEnd="27dp"
+            android:id="@+id/divider_one"
+
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/divider_one"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/white"
+            android:id="@+id/settings_themes_spinner"
+            >
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:gravity="center"
+
+            android:layout_marginStart="27dp"
+            android:textSize="10.5sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/settings_themes_spinner"
+            style="@style/Divider.Horizontal"
+            android:layout_marginEnd="27dp"
+            android:id="@+id/divider_twpo"
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
