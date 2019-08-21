@@ -19,4 +19,4 @@ Local DataSource, Repository And NotesViewModel.
 
 # Back-End
 + SQlite Database is used for storing all the notes of the user
-+ Firebase is used fot storing the images of the users
++ Firebase is used for storing the images of the users
