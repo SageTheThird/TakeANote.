@@ -1,5 +1,7 @@
+<div align="center">
+    <img src="/screenshots/takeanote (4).png" width="400px"</img> 
+</div>
 
- <img src="screenshots/takeanote (4).png" height="400" alt="Screenshot"/> 
  
  <div align="center">
     <img src="/screenshots/takeanote (3).png" width="400px"</img> 
