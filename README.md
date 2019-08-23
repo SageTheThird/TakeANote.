@@ -7,6 +7,16 @@
     <img src="/screenshots/takeanote (3).png" width="400px"</img> 
 </div>
 
+ <div align="center">
+    <img src="/screenshots/takeanote (1).png" width="400px"</img> 
+</div>
+
+ <div align="center">
+    <img src="/screenshots/takeanote (2).png" width="400px"</img> 
+</div>
+
+
+
 # TakeANote.
 Advanced quick note taking app built with Rx android, Room Persistence Library, and SQLite + Firebase as back-end.
 
