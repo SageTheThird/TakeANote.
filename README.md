@@ -1,19 +1,3 @@
-<div align="center">
-    <img src="/screenshots/takeanote (4).png" width="400px"</img> 
-</div>
-
- 
- <div align="center">
-    <img src="/screenshots/takeanote (3).png" width="400px"</img> 
-</div>
-
- <div align="center">
-    <img src="/screenshots/takeanote (1).png" width="400px"</img> 
-</div>
-
- <div align="center">
-    <img src="/screenshots/takeanote (2).png" width="400px"</img> 
-</div>
 
 
 
@@ -39,3 +23,21 @@ Local DataSource, Repository And NotesViewModel.
 # Back-End
 + SQlite Database is used for storing all the notes of the user
 + Firebase is used for storing the images of the users
+
+
+<div align="center">
+    <img src="/screenshots/takeanote (4).png" width="400px"</img> 
+</div>
+
+ 
+ <div align="center">
+    <img src="/screenshots/takeanote (3).png" width="400px"</img> 
+</div>
+
+ <div align="center">
+    <img src="/screenshots/takeanote (1).png" width="400px"</img> 
+</div>
+
+ <div align="center">
+    <img src="/screenshots/takeanote (2).png" width="400px"</img> 
+</div>
